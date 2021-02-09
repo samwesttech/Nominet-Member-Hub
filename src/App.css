@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f7f7f7;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app {
+  text-align: left;
+  font-size: 1.5vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* GREY BAR SECTION */
+.grey-bar p {
+  background-color: #d9d8d9;
+  margin: auto;
+  padding: 0.5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* NAV BAR SECTION */
+
+.nav {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: auto;
+  height: 6vw;
+}
+
+.nav-logo {
+  margin: auto 5%;
+}
+
+.nav-right {
+  margin: auto;
+  margin-right: 2%;
+  width: 80%;
+  text-align: right;
+}
+
+.nav-right a {
+  margin: auto 2%;
+}
+
+/* LARGE INFO TILE SECTION */
+
+.tile-large {
+  display: flex;
+  flex-direction: row;
+}
+.tile-large .tile {
+  width: 40%;
+  margin: 3% auto;
+}
+.tile-large .tile img {
+  width: auto;
+  height: 23vw;
+  position: relative;
+}
+
+.tile-large .tile .text-box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: white;
+  position: relative;
+  top: -10%;
+}
+.text-box-left {
+  width: 75%;
+  height: auto;
+}
+
+.text-box-right {
+  width: 25%;
+  height: 5%;
+  text-align: center;
   color: white;
+  background-color: #006272;
 }
 
-.App-link {
-  color: #61dafb;
+/* Line and Link Section */
+.Line-Link {
+  display: flex;
+  flex-direction: row;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+hr {
+  width: 5%;
+  height: 0%;
+  color: #51e5ca9f;
+  margin: auto 1%;
+}
+.Line-Link p {
+  width: 10%;
+}
+
+.Line-Link a {
+  margin: auto;
+  margin-right: 5%;
+  text-align: right;
+}
+
+/* SMALL INFO TILE SECTION */
+
+.tile-small {
+  display: flex;
+  flex-direction: row;
+}
+
+.tile-small .tile {
+  width: 30%;
+  margin: 3% auto;
+}
+.tile-small .tile img {
+  width: 30vw;
+  height: auto;
+  position: relative;
+}
+
+.tile-small .tile .text-box {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  background-color: white;
+  position: relative;
+  top: -10%;
 }
