@@ -89,7 +89,7 @@ hr {
   margin: auto 1%;
 }
 .Line-Link p {
-  width: 10%;
+  width: 20%;
 }
 
 .Line-Link a {
@@ -122,4 +122,84 @@ hr {
   background-color: white;
   position: relative;
   top: -10%;
+}
+
+@media screen and (max-width: 600px) {
+  .app {
+    text-align: left;
+    font-size: 3vw;
+  }
+
+  /*LARGE TILE MOBILE */
+
+  .tile-large {
+    flex-direction: column;
+  }
+  .tile-large .tile {
+    width: 90%;
+    margin: 3% auto;
+  }
+  .tile-large .tile img {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .tile-large .tile .text-box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    top: -10%;
+  }
+
+  /* Line and Link Section */
+  .Line-Link {
+    display: flex;
+    flex-direction: row;
+  }
+
+  hr {
+    width: 5%;
+    height: 0%;
+    margin: auto 1%;
+  }
+  .Line-Link p {
+    width: 20%;
+    margin-left: 5%;
+  }
+
+  .Line-Link a {
+    margin: auto;
+    margin-left: 5%;
+    text-align: left;
+    flex-direction: column;
+  }
+
+  /* SMALL INFO TILE SECTION */
+
+  .tile-small {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tile-small .tile {
+    width: 90%;
+    margin: 3% auto;
+  }
+  .tile-small .tile img {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .tile-small .tile .text-box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    top: -10%;
+  }
 }

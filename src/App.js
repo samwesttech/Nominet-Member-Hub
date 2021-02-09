@@ -6,6 +6,9 @@ import PresentationImage from "./assets/Mask_Group_6.png";
 import CameraImage from "./assets/Mask_Group_7.png";
 import MonitorImage from "./assets/Mask_Group_7_cp.png";
 import PhoneImage from "./assets/Mask_Group_7_c.png";
+import SignUp from "./components/SignUp";
+import Register from "./components/Register";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -94,6 +97,54 @@ function App() {
           </div>
         </div>
       </div>
+
+      <SignUp />
+
+      <div className="Line-Link">
+        <hr></hr>
+        <p>Upcoming Events</p>
+        <a>Browse all Events</a>
+      </div>
+
+      <div className="tile-small">
+        <div className="tile">
+          <img src={CameraImage} />
+          <div className="text-box">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id
+              egestas dolor, vitae vehicula quam. Proin in nunc elementum,
+              varius sem vel, fringilla mi. Donec vitae risus tincidunt, luctus
+              augue sed, ultrices est.
+            </p>
+          </div>
+        </div>
+        <div className="tile">
+          <img src={MonitorImage} />
+          <div className="text-box">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id
+              egestas dolor, vitae vehicula quam. Proin in nunc elementum,
+              varius sem vel, fringilla mi. Donec vitae risus tincidunt, luctus
+              augue sed, ultrices est.
+            </p>
+          </div>
+        </div>
+        <div className="tile">
+          <img src={PhoneImage} />
+          <div className="text-box">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id
+              egestas dolor, vitae vehicula quam. Proin in nunc elementum,
+              varius sem vel, fringilla mi. Donec vitae risus tincidunt, luctus
+              augue sed, ultrices est.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <Register />
+
+      <Footer />
     </div>
   );
 }
