@@ -2,11 +2,16 @@ import React from "react";
 import BannerImage from "../assets/Nominet_Hub_CAROUSEL_2.png";
 
 const Banner = () => (
-  <svg width={"100%"} height={"auto"} viewBox="0 0 1920 450">
+  <svg
+    width={"100%"}
+    height={"auto"}
+    viewBox="0 0 1920 450"
+    className="welcome-banner"
+  >
     <defs>
       <style>
         {
-          ".a10{opacity:0.77;fill:url(#a);}.b10,.c10,.e10,.f10{fill:#fff;}.b10{font-size:24px;}.b10,.c10{font-family:Helvetica;}.c10{font-size:64px;}.d10,.g10,.j10{fill:none;}.e10{opacity:0;}.g10{stroke:#fff;}.h10,.i10{stroke:none;}.i10{fill:#fff;}"
+          ".a10{opacity:0.77;fill:url(#a10);}.b10,.c10,.e10,.f10{fill:#fff;}.b10{font-size:24px;}.b10,.c10{font-family:Helvetica;}.c10{font-size:64px;}.d10,.g10,.j10{fill:none;}.e10{opacity:0;}.g10{stroke:#fff;}.h10,.i10{stroke:none;}.i10{fill:#fff;}"
         }
       </style>
       <linearGradient

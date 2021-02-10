@@ -7,6 +7,7 @@ body {
 .app {
   text-align: left;
   font-size: 1.5vw;
+  font-family: "CeraPRO-Regular";
 }
 
 /* GREY BAR SECTION */
@@ -21,11 +22,31 @@ body {
 .nav {
   display: flex;
   margin: auto;
-  height: 6vw;
+  height: auto;
+}
+
+.hamburger {
+  display: none;
 }
 
 .nav-logo {
   margin: auto 5%;
+  text-align: center;
+}
+
+.nav-logo h3 {
+  margin-bottom: 0;
+  color: #006272;
+
+  padding: 0%;
+}
+
+.nav-logo h1 {
+  margin-top: 0%;
+  background-image: linear-gradient(to right, #006272, #51e5ca);
+  background-size: 100%;
+  background-clip: text;
+  color: transparent;
 }
 
 .nav-right {
@@ -37,6 +58,19 @@ body {
 
 .nav-right a {
   margin: auto 2%;
+  text-decoration: none;
+  color: black;
+}
+
+#search {
+  margin: auto;
+  margin-right: 5%;
+}
+
+/* WELCOME BANNER */
+
+.welcome-banner-mobile {
+  display: none;
 }
 
 /* LARGE INFO TILE SECTION */
@@ -55,6 +89,46 @@ body {
   position: relative;
 }
 
+/* .tile .header-img {
+  position: relative;
+  z-index: 999;
+  background-color: #006272;
+  color: white;
+  padding: 0.5% 5%;
+  width: 40%;
+  top: -43.7%;
+  right: -31.5%;
+} */
+
+/* TILE HEADER SECTION */
+.tile-header {
+  display: flex;
+  flex-direction: row;
+}
+.tile-header a {
+  width: 20%;
+  font-size: 3vw;
+  color: #006272;
+  margin: auto 0%;
+  text-align: center;
+}
+
+.tile-header-text {
+  margin: auto;
+  margin-left: 0%;
+  font-size: 1.25vw;
+  width: auto;
+  flex-direction: column;
+}
+
+.tile-header-text h4 {
+  color: #006272;
+  margin-bottom: 0%;
+}
+.tile-large .tile .text-box .tile-header-text p {
+  margin: 0;
+}
+
 .tile-large .tile .text-box {
   display: flex;
   flex-direction: row;
@@ -63,6 +137,11 @@ body {
   position: relative;
   top: -10%;
 }
+
+.tile-large .tile .text-box p {
+  margin: 10%;
+}
+
 .text-box-left {
   width: 75%;
   height: auto;
@@ -90,12 +169,14 @@ hr {
 }
 .Line-Link p {
   width: 20%;
+  color: #006272;
 }
 
 .Line-Link a {
   margin: auto;
   margin-right: 5%;
   text-align: right;
+  color: #006272;
 }
 
 /* SMALL INFO TILE SECTION */
@@ -110,24 +191,181 @@ hr {
   margin: 3% auto;
 }
 .tile-small .tile img {
-  width: 30vw;
-  height: auto;
+  width: 100%;
+  height: 23vw;
+  overflow: hidden;
   position: relative;
 }
 
 .tile-small .tile .text-box {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 85%;
   background-color: white;
   position: relative;
   top: -10%;
 }
 
+.tile-small .tile .text-box .tile-header-text p {
+  margin: 0;
+}
+
+.tile-small .tile .text-box p {
+  margin: 10%;
+}
+
+/* BANNER STYLING */
+
+.banner {
+  background: linear-gradient(to right, #006272, #51e5ca);
+  height: 20vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.banner img {
+  width: auto;
+  height: 75%;
+  margin: auto 0;
+  margin-bottom: 0.5%;
+}
+.banner-text {
+  width: 70%;
+  display: flex;
+  margin: auto 0;
+}
+.banner-text p {
+  font-size: 2vw;
+  width: 40%;
+  margin: auto;
+  color: white;
+}
+.banner-text button {
+  width: auto;
+  margin: auto;
+  padding: 1% 2%;
+  border: white solid 1px;
+  color: white;
+  font-size: 0.9vw;
+  background: none;
+}
+
+/* FOOTER */
+.footer {
+  color: white;
+  background-color: #3c3c3b;
+}
+
+.footer-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-header h1 {
+  margin: 3% 5%;
+  width: 50%;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: right;
+  width: 50%;
+  margin: 3% 5%;
+}
+.footer-socials a {
+  display: flex;
+  justify-content: center;
+  margin: auto 5%;
+  padding: 2%;
+  width: 1.5vw;
+  border: solid white 1px;
+  border-radius: 50%;
+}
+
+.footer-line {
+  width: 90%;
+  margin: auto;
+  color: lightgrey;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-info-left {
+  width: 80%;
+  display: flex;
+}
+
+.footer-info-right {
+  display: flex;
+  width: 50%;
+  flex-direction: row;
+}
+
+.footer-list {
+  font-size: 1.25vw;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin: auto;
+  margin-left: 10%;
+  margin-top: 0%;
+}
+
+.footer h3 {
+  color: #51e5ca;
+}
+
+.footer-copyright {
+  background-color: #2a2a2a;
+  font-size: 1.2vw;
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+
+.footer-copyright p {
+  font-size: 1vw;
+  width: 100%;
+  margin: auto;
+  padding: 2%;
+}
+
 @media screen and (max-width: 600px) {
   .app {
     text-align: left;
     font-size: 3vw;
+  }
+
+  .hamburger {
+    display: flex;
+    margin: auto;
+
+    height: 50%;
+    width: 10%;
+  }
+
+  .nav-right {
+    display: none;
+  }
+
+  .nav-logo {
+    margin: auto;
+    text-align: center;
+  }
+
+  #search {
+    font-size: 7vw;
+  }
+
+  .welcome-banner {
+    display: none;
+  }
+
+  .welcome-banner-mobile {
+    display: flex;
   }
 
   /*LARGE TILE MOBILE */
@@ -154,6 +392,14 @@ hr {
     top: -10%;
   }
 
+  .tile-header a {
+    font-size: 6vw;
+  }
+
+  .tile-header-text {
+    font-size: 3vw;
+  }
+
   /* Line and Link Section */
   .Line-Link {
     display: flex;
@@ -166,15 +412,14 @@ hr {
     margin: auto 1%;
   }
   .Line-Link p {
-    width: 20%;
+    width: 25%;
     margin-left: 5%;
   }
 
   .Line-Link a {
     margin: auto;
-    margin-left: 5%;
-    text-align: left;
-    flex-direction: column;
+    margin-right: 5%;
+    text-align: right;
   }
 
   /* SMALL INFO TILE SECTION */
@@ -196,10 +441,92 @@ hr {
 
   .tile-small .tile .text-box {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
     background-color: white;
     position: relative;
     top: -10%;
+  }
+
+  /* BANNER SECTION */
+
+  .banner {
+    background: linear-gradient(to right, #006272, #51e5ca);
+    height: auto;
+    flex-direction: column-reverse;
+  }
+
+  .banner-text {
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+  }
+
+  .banner img {
+    margin-bottom: 0%;
+  }
+  .banner-text p {
+    margin: auto;
+    margin-top: 10%;
+    font-size: 6vw;
+    width: 80%;
+    text-align: center;
+  }
+  .banner-text button {
+    width: auto;
+    margin: 10%;
+    border: white solid 1px;
+    color: white;
+    font-size: 4vw;
+    background: none;
+  }
+
+  /* FOOTER SECTION */
+
+  .footer-header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-header h1 {
+    margin: 10% auto;
+    margin-bottom: 0%;
+    text-align: center;
+  }
+
+  .footer-socials {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+  }
+  .footer-socials a {
+    display: flex;
+    justify-content: center;
+    margin: 5% 5%;
+    padding: 2.5%;
+    width: 2.5vw;
+    border: solid white 1px;
+    border-radius: 50%;
+  }
+  .footer-info-left {
+    flex-direction: column;
+  }
+  .footer-info-right {
+    flex-direction: column;
+  }
+
+  .footer-list {
+    font-size: 3vw;
+  }
+  .footer-copyright {
+    flex-direction: column;
+  }
+
+  .footer-copyright p {
+    width: 60%;
+    padding: 5%;
+
+    font-size: 2.5vw;
   }
 }
