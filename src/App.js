@@ -29,8 +29,8 @@ function App() {
       <div className="tile-large">
         <div className="tile">
           <img src={MountainImage} />
-          <p>
-            <br className="break"></br>
+          <p className="break">
+            <br></br>
           </p>
           <div className="text-box">
             <div className="text-box-left">
@@ -96,8 +96,8 @@ function App() {
       <div className="tile-small">
         <div className="tile">
           <img src={CameraImage} />
-          <p>
-            <br className="break"></br>
+          <p className="break">
+            <br></br>
           </p>
           <div className="text-box">
             <div className="tile-header">
@@ -118,8 +118,8 @@ function App() {
         </div>
         <div className="tile">
           <img src={MonitorImage} />
-          <p>
-            <br className="break"></br>
+          <p className="break">
+            <br></br>
           </p>
           <div className="text-box">
             <div className="tile-header">
@@ -139,8 +139,8 @@ function App() {
         </div>
         <div className="tile">
           <img src={PhoneImage} />
-          <p>
-            <br className="break"></br>
+          <p className="break">
+            <br></br>
           </p>
           <div className="text-box">
             <div className="tile-header">
@@ -171,8 +171,8 @@ function App() {
       <div className="tile-small">
         <div className="tile">
           <img src={CoffeeImage} />
-          <p>
-            <br className="break"></br>
+          <p className="break">
+            <br></br>
           </p>
           <div className="text-box">
             <div className="tile-header">
@@ -192,8 +192,8 @@ function App() {
         </div>
         <div className="tile">
           <img src={MountainImage} />
-          <p>
-            <br className="break"></br>
+          <p className="break">
+            <br></br>
           </p>
           <div className="text-box">
             <div className="tile-header">
@@ -213,8 +213,8 @@ function App() {
         </div>
         <div className="tile">
           <img src={DeskImage} />
-          <p>
-            <br className="break"></br>
+          <p className="break">
+            <br></br>
           </p>
           <div className="text-box">
             <div className="tile-header">
