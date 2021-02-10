@@ -96,7 +96,9 @@ function App() {
       <div className="tile-small">
         <div className="tile">
           <img src={CameraImage} />
-
+          <p>
+            <br className="break"></br>
+          </p>
           <div className="text-box">
             <div className="tile-header">
               <a className="fa fa-play-circle"> </a>
@@ -116,7 +118,9 @@ function App() {
         </div>
         <div className="tile">
           <img src={MonitorImage} />
-
+          <p>
+            <br className="break"></br>
+          </p>
           <div className="text-box">
             <div className="tile-header">
               <a className="fa fa-play-circle"> </a>
@@ -135,7 +139,9 @@ function App() {
         </div>
         <div className="tile">
           <img src={PhoneImage} />
-
+          <p>
+            <br className="break"></br>
+          </p>
           <div className="text-box">
             <div className="tile-header">
               <a className="fa fa-play-circle"> </a>
@@ -165,7 +171,9 @@ function App() {
       <div className="tile-small">
         <div className="tile">
           <img src={CoffeeImage} />
-
+          <p>
+            <br className="break"></br>
+          </p>
           <div className="text-box">
             <div className="tile-header">
               <a className="fa fa-newspaper-o"> </a>
@@ -184,7 +192,9 @@ function App() {
         </div>
         <div className="tile">
           <img src={MountainImage} />
-
+          <p>
+            <br className="break"></br>
+          </p>
           <div className="text-box">
             <div className="tile-header">
               <a className="fa fa-newspaper-o"> </a>
@@ -203,7 +213,9 @@ function App() {
         </div>
         <div className="tile">
           <img src={DeskImage} />
-
+          <p>
+            <br className="break"></br>
+          </p>
           <div className="text-box">
             <div className="tile-header">
               <a className="fa fa-newspaper-o"> </a>
