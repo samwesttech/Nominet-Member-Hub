@@ -54,10 +54,10 @@ function App() {
         </div>
 
         <div className="tile">
-          <img src={PresentationImage} />
-          {/* <div className="header-img">
+          <div class="image">
+            <img src={PresentationImage} />
             <p>10th September 2021</p>
-          </div> */}
+          </div>
           <div className="text-box">
             <div className="text-box-left">
               <div className="tile-header">
@@ -222,7 +222,10 @@ function App() {
 
       <div className="tile-small">
         <div className="tile">
-          <img src={PresentationImage} />
+          <div class="image-small">
+            <img src={PresentationImage} />
+            <p>10th September 2021</p>
+          </div>
           <div className="text-box">
             <div className="tile-header">
               <a className="fa fa-ticket"> </a>
@@ -242,7 +245,10 @@ function App() {
           </div>
         </div>
         <div className="tile">
-          <img src={LightImage} />
+          <div class="image-small">
+            <img src={LightImage} />
+            <p className="image-small-2">12th January 2021</p>
+          </div>
           <div className="text-box">
             <div className="tile-header">
               <a className="fa fa-ticket"> </a>
@@ -262,7 +268,10 @@ function App() {
           </div>
         </div>
         <div className="tile">
-          <img src={BuildingImage} />
+          <div class="image-small">
+            <img src={BuildingImage} />
+            <p className="image-small-2">13th January 2021</p>
+          </div>
           <div className="text-box">
             <div className="tile-header">
               <a className="fa fa-ticket"> </a>

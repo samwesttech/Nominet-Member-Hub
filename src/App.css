@@ -89,16 +89,18 @@ body {
   position: relative;
 }
 
-/* .tile .header-img {
+.image p {
   position: relative;
-  z-index: 999;
+  top: -24.3vw;
+  left: 19.6vw;
   background-color: #006272;
   color: white;
-  padding: 0.5% 5%;
-  width: 40%;
-  top: -43.7%;
-  right: -31.5%;
-} */
+  width: 12vw;
+  font-size: 0.75vw;
+  padding: 2% 1%;
+  z-index: 999;
+  text-align: center;
+}
 
 /* TILE HEADER SECTION */
 .tile-header {
@@ -212,6 +214,19 @@ hr {
 
 .tile-small .tile .text-box p {
   margin: 10%;
+}
+
+.image-small p {
+  position: relative;
+  top: -24.25vw;
+  left: 17.4vw;
+  background-color: #006272;
+  color: white;
+  width: 12vw;
+  font-size: 0.75vw;
+  padding: 2% 1%;
+  z-index: 999;
+  text-align: center;
 }
 
 /* BANNER STYLING */
@@ -400,6 +415,13 @@ hr {
     font-size: 3vw;
   }
 
+  .image p {
+    top: -68.25vw;
+    left: 48.25vw;
+    width: 40vw;
+    font-size: 3.5vw;
+  }
+
   /* Line and Link Section */
   .Line-Link {
     display: flex;
@@ -446,6 +468,17 @@ hr {
     background-color: white;
     position: relative;
     top: -10%;
+  }
+
+  .image-small p {
+    top: -68.35vw;
+    left: 48.25vw;
+    width: 40vw;
+    font-size: 3.5vw;
+  }
+
+  .image-small .image-small-2 {
+    top: -61vw;
   }
 
   /* BANNER SECTION */
