@@ -29,7 +29,9 @@ function App() {
       <div className="tile-large">
         <div className="tile">
           <img src={MountainImage} />
-
+          <p>
+            <br className="break"></br>
+          </p>
           <div className="text-box">
             <div className="text-box-left">
               <div className="tile-header">
@@ -94,6 +96,7 @@ function App() {
       <div className="tile-small">
         <div className="tile">
           <img src={CameraImage} />
+
           <div className="text-box">
             <div className="tile-header">
               <a className="fa fa-play-circle"> </a>
@@ -113,6 +116,7 @@ function App() {
         </div>
         <div className="tile">
           <img src={MonitorImage} />
+
           <div className="text-box">
             <div className="tile-header">
               <a className="fa fa-play-circle"> </a>
@@ -131,6 +135,7 @@ function App() {
         </div>
         <div className="tile">
           <img src={PhoneImage} />
+
           <div className="text-box">
             <div className="tile-header">
               <a className="fa fa-play-circle"> </a>
@@ -160,6 +165,7 @@ function App() {
       <div className="tile-small">
         <div className="tile">
           <img src={CoffeeImage} />
+
           <div className="text-box">
             <div className="tile-header">
               <a className="fa fa-newspaper-o"> </a>
@@ -178,6 +184,7 @@ function App() {
         </div>
         <div className="tile">
           <img src={MountainImage} />
+
           <div className="text-box">
             <div className="tile-header">
               <a className="fa fa-newspaper-o"> </a>
@@ -196,6 +203,7 @@ function App() {
         </div>
         <div className="tile">
           <img src={DeskImage} />
+
           <div className="text-box">
             <div className="tile-header">
               <a className="fa fa-newspaper-o"> </a>
@@ -247,7 +255,7 @@ function App() {
         <div className="tile">
           <div class="image-small">
             <img src={LightImage} />
-            <p className="image-small-2">12th January 2021</p>
+            <p>12th January 2021</p>
           </div>
           <div className="text-box">
             <div className="tile-header">
@@ -270,7 +278,7 @@ function App() {
         <div className="tile">
           <div class="image-small">
             <img src={BuildingImage} />
-            <p className="image-small-2">13th January 2021</p>
+            <p>13th January 2021</p>
           </div>
           <div className="text-box">
             <div className="tile-header">
